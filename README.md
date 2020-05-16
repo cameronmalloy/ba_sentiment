@@ -6,7 +6,7 @@ Repository for [the blog post of the same name](https://cameronmalloy.github.io/
 To recreate, first you must download data.
 First we can download the Sander's test corpus. In data/sanders, follow the README instructions. Make sure the final csv downloaded is named `final_corpus.csv`. This will take about 10 hours to follow the Twitter API's rate-limits.
 
-Second, we'll download Sentiment140's train and test dataset. When reading these csv's in `LSTM.ipynb`, make sure the names of the files align (maybe Sentiment140 will change the names, we're unsure).
+Second, we'll download [Sentiment140's](http://help.sentiment140.com/for-students) train and test dataset. Go ahead and download from the link and add the folder under the `data` directory ofthis repository. When reading these csv's in `LSTM.ipynb`, make sure the names of the files align (maybe Sentiment140 will change the names, we're unsure).
 
 Third deals with GloVe's word embeddings. The notebook handles this with `wget`.
 
