@@ -14,3 +14,6 @@ If you would like to use the Bay Area twitter data in the blog, you don't have t
 
 ## Running the Analysis
 Once the data is downloaded, you can run everything in `lstm.ipynb`! It includes everything from the blog.
+
+## Running Permutation Tests
+`data/sf_tweets/oakland_permutation_test_notebook.ipynb` has code for performing a permutation test on the difference of means on the city of Oakland over two time periods. This can be changed for any city, so long as you have 2 csv's of sentiments (these are created in the `LSTM.ipynb`).
