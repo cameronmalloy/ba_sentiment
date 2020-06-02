@@ -4,3 +4,4 @@ data_june.csv
 oakland_permutation_test.jpg
 sentiments.csv
 sentiments_may.csv
+*.ipynb_checkpoints
